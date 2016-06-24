@@ -1,0 +1,83 @@
+/* 整体布局 */
+html,body {
+		height: 100%;
+}
+body {
+	min-height: 600px;
+	min-width: 1250px;
+}
+/* 页面局部 */
+.login_wrapper{height:100%;}
+.login_header{height:10%;}
+.login_content{height:70%;}
+.login_footer{height:20%;}
+/* login_content */
+.logo {
+	text-align: center;
+}
+.center {
+	width:100%;
+	min-width: 1250px; 
+	margin-top: 60px;
+}
+.nav {
+	width: 60%;
+	min-width: 984px;
+	overflow: auto;
+	margin: 0 auto;
+}
+.nav ul {
+	direction: none;
+	list-style-type: none;
+} 
+.nav ul li {
+	width: 100px;
+	float: left;
+	text-align: center;
+}
+.nav ul li {
+	margin-left: 6%;
+}
+.img {
+	width: 100px;
+	height: 100px;
+	border: 1px #000 solid;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	position: relative;
+}
+.img img {
+	margin-top: 16px;
+}
+.nav-text {
+	margin-top: 20px;
+	display: block;
+}
+/* login_footer */
+.footer {
+	width: 100%;
+	min-width: 1250px;
+	height: 50px;
+	background-color: #F2F2F2;
+	bottom: 0;
+	position: absolute;
+}
+.footer-left {
+}
+.footer-left-list {
+	width: 100px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+.footer-right {
+}
+.footer-right-list {
+	width: 100px;
+	height: 50px;
+	float: right;
+	text-align: center;
+	line-height: 50px;
+}
